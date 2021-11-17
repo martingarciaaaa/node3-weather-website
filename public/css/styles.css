@@ -8,6 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background: linear-gradient(to top left, #1a84b8, #7AD7F0);
 }
 
 header {
@@ -16,7 +17,7 @@ header {
 }
 
 footer {
-  color: #888888;
+  color: #f5f5f5;
   border-top: 1px solid #eeeeee;
   margin-top: 16px;
   padding: 16px 0;
@@ -28,7 +29,7 @@ h1 {
 }
 
 header a {
-  color: #888888;
+  color: #f5f5f5;
   margin-right: 16px;
   text-decoration: none;
 }
@@ -42,14 +43,42 @@ header a {
 }
 
 input {
-  border: 1px solid #cccccc;
+  border: 1px solid #4682B4 ;
   padding: 8px;
 }
 
 button {
   cursor: pointer;
-  border: 1px solid #888888;
-  background: #888888;
+  border: 1px solid #4682B4 ;
+  background: #4682B4 ;
   color: white;
   padding: 8px;
+}
+
+/* a:link, a:visited {
+  background-color: #f5f5f5;
+  border: 2px solid #4682B4;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: #333333;
+}
+
+a:hover, a:active {
+  background-color: #4682B4;
+} */
+
+.socials:link, .socials:visited {
+  background-color: #7AD7F0;
+  border: 2px solid #4682B4;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: #333333;
+}
+
+.socials:hover, .socials:active {
+  background-color: #4682B4;
 }
